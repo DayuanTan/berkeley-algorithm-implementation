@@ -1,6 +1,11 @@
 # berkeley-algorithm-implementation
 Cpp implementation of Berkeley algorithm for clock synchronization in distributed systems.
 
+## Environments:
+
+All tests are on Ubuntu 16.04 LTS, g++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609.
+
+
 # 1. Background Knowledge Review
 
 ## 1.1 Synchronization, Clock Synchronization, Berkeley Algorithm
@@ -66,6 +71,6 @@ At this moment, the server and all clients have clock synchronization.
 
 
 
-The below screenshot shows how I ran it with 2 clients. A video is also provided to explain my implementation.
+The below screenshot shows how I ran it with 2 clients. 
 ![](img/record.png)
 
