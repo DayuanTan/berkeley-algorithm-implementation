@@ -3,7 +3,7 @@ Cpp implementation of Berkeley algorithm for clock synchronization in distribute
 
 ## Environments:
 
-All tests are on Ubuntu 16.04 LTS, g++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609.
+All tests are on Ubuntu 16.04 LTS, g++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609. -std=c++11.
 
 
 # 1. Background Knowledge Review
