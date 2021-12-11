@@ -32,7 +32,7 @@ In DS, absolute time is less important. Clock synchronazation doesn't need to be
 I used a **server-clients structure**, like the below figure:
 ![](img/server_clients.jpg)
 
-I re-used pieces of code of our [proj1 bank account management](https://github.com/DayuanTan/DistributedOS-A-Centralized-Multi-User-Concurrent-Bank-Account-Manager-Multithread-Synchronization). 
+I re-used pieces of code of our [proj1 bank account management](https://github.com/DayuanTan/DistributedOS-A-Centralized-Multi-User-Concurrent-Bank-Account-Manager-Multithread-Synchronization) which is also server-clients structure. 
 
 The only difference is we don't need to create a thread for each connection.  
 The server can be time daemon while clients can be other nodes in this DS.
