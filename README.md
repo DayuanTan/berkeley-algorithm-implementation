@@ -27,6 +27,9 @@ In DS, absolute time is less important. Clock synchronazation doesn't need to be
 ![](img/berkeley.png)
 [(This image credits to UPenn.)](https://www.cis.upenn.edu/~lee/07cis505/Lec/lec-ch6-synch1-PhysicalClock-v2.pdf)
 
+More assignment details: [PDF](Project2_Fall2021.pdf).
+
+
 # 2. Implementation 
 
 The key task is to creat multiple process and implement inter-process communication. Inter-process communication has multiple ways: pipes, shared memory, mmaped file and message passing (socket). I used message passing (socket) since we are simulating distributed systems here.
