@@ -74,7 +74,9 @@ At this moment, the server and all clients have clock synchronization.
 
 
 
-The below screenshot shows how I ran it with 2 clients. 
-Run ```./server``` in one terminal first. Then run ```./client``` in multiple ternimals.
+The below screenshot shows how I ran it with 2 clients: 
+1. Run ```./server``` in one terminal first. 
+2. Then run ```./client``` in multiple ternimals.
+
 ![](img/record.png)
 
