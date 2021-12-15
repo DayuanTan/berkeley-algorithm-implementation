@@ -32,6 +32,7 @@ In DS, absolute time is less important. Clock synchronazation doesn't need to be
 The key task is to creat multiple process and implement inter-process communication. Inter-process communication has multiple ways: pipes, shared memory, mmaped file and message passing (socket). I used message passing (socket) since we are simulating distributed systems here.
 
 I used a **server-clients structure**, like the below figure:
+
 ![](img/server_clients.jpg)
 
 I re-used pieces of code of our [proj1 bank account management](https://github.com/DayuanTan/DistributedOS-A-Centralized-Multi-User-Concurrent-Bank-Account-Manager-Multithread-Synchronization) which is also server-clients structure. 
