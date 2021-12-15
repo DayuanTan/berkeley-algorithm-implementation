@@ -20,18 +20,18 @@ In DS, absolute time is less important. Clock synchronazation doesn't need to be
 
 
 ## 1.2 Steps for the Berkeley algorithm (Averaging algorithm)
-1. The time daemon asks all the other machines for their clock values. 
-2. The machines answer.
-3. The Time daemon tells everyone how to adjust their clock.
+1. The time daemon asks all the other machines for their clock values. (This can be done via p2p communication or multicasting.)
+2. The machines answer. (This needs p2p communication.)
+3. The Time daemon tells everyone how to adjust their clock. (This needs p2p communication.)
 
 ![](img/berkeley.png)
 [(This image credits to UPenn.)](https://www.cis.upenn.edu/~lee/07cis505/Lec/lec-ch6-synch1-PhysicalClock-v2.pdf)
 
-# 2. Implementation
+# 2. Implementation 
 
 The key task is to creat multiple process and implement inter-process communication. Inter-process communication has multiple ways: pipes, shared memory, mmaped file and message passing (socket). I used message passing (socket) since we are simulating distributed systems here.
 
-I used a **server-clients structure**, like the below figure:
+In terms of socket programming, I used a **server-clients structure (p2p communication)**, like the below figure:
 
 ![](img/server_clients.jpg)
 
@@ -79,4 +79,5 @@ The below screenshot shows how I ran it with 2 clients:
 2. Then run ```./client``` in multiple ternimals.
 
 ![](img/record.png)
+
 
