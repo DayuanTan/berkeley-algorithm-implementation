@@ -27,7 +27,7 @@ In DS, absolute time is less important. Clock synchronazation doesn't need to be
 ![](img/berkeley.png)
 [(This image credits to UPenn.)](https://www.cis.upenn.edu/~lee/07cis505/Lec/lec-ch6-synch1-PhysicalClock-v2.pdf)
 
-More assignment details: [PDF](Project2_Fall2021.pdf).
+This assignment belongs to Proj2-Assignment1. More assignment details: [PDF](Project2_Fall2021.pdf).
 
 
 # 2. Implementation 
