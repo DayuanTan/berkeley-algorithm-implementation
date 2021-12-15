@@ -1,5 +1,5 @@
 # berkeley-algorithm-implementation
-Cpp implementation of Berkeley algorithm for clock synchronization in distributed systems.
+Cpp implementation of Berkeley algorithm for clock synchronization in distributed systems. Code are in [p1_berkeley_server_clients](p1_berkeley_server_clients) dir.
 
 ## Environments:
 
